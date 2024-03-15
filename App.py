@@ -8,7 +8,7 @@ from PIL import Image
 st.title("Interfaz de Reconocimiento Óptico de Caracteres")
 st.subheader("Hello!")
 
-img_file_buffer = st.camera_input("Toma una Foto y convirtamos tu imágen en texto.")
+img_file_buffer = st.camera_input("Toma una foto y convirtamos tu imágen en texto.")
 
 with st.sidebar:
       filtro = st.radio("Aplicar Filtro",('Con Filtro', 'Sin Filtro'))
